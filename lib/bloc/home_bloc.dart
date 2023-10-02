@@ -26,7 +26,7 @@ FutureOr<void> decrement(Decrement event, Emitter<HomeState> emit) {
   emit(HomeState(counter: currentCounter - 1));
 }
 
-
+//
   FutureOr<void> postInitialFetchEvent(
       PostInitialFetchEvent event, Emitter<HomeState> emit) async {
     List<Post> postList = [];
